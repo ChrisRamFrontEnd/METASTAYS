@@ -1,0 +1,102 @@
+.no-properties-owned {
+  margin: 0;
+}
+.no-properties-owned-container1 {
+  line-break: anywhere;
+  width: 100%;
+}
+.no-properties-owned-container {
+  position: absolute;
+  top: 0;
+  left: 109px;
+  font-size: var(--font-size-9xl);
+  line-height: 18px;
+  color: var(--color-firebrick);
+  display: flex;
+  align-items: center;
+  width: 314px;
+  height: 43px;
+  cursor: pointer;
+}
+.button-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-mini);
+  background-color: var(--color-firebrick);
+  width: 349px;
+  height: 60px;
+}
+.add-property {
+  position: absolute;
+  top: 8px;
+  left: 17px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 315px;
+  height: 45px;
+}
+.button2,
+.want-to-upload {
+  position: absolute;
+  cursor: pointer;
+}
+.button2 {
+  top: 180px;
+  left: 84px;
+  width: 349px;
+  height: 60px;
+  color: var(--primary-contrast);
+  font-family: var(--font-fipps);
+}
+.want-to-upload {
+  top: 75px;
+  left: 0;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 519px;
+  height: 47px;
+}
+.unlock-1-icon {
+  position: absolute;
+  top: 0;
+  left: 353px;
+  width: 134px;
+  height: 38px;
+  object-fit: cover;
+  mix-blend-mode: hard-light;
+}
+.create-a-property {
+  position: absolute;
+  top: 7px;
+  left: 0;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 353px;
+  height: 31px;
+}
+.unlock-1-parent {
+  position: absolute;
+  top: 285px;
+  left: 2px;
+  width: 516px;
+  height: 38px;
+  cursor: pointer;
+}
+.no-properties-owned-parent {
+  position: absolute;
+  top: calc(50% - 219px);
+  left: calc(50% - 259px);
+  width: 519px;
+  height: 323px;
+  text-align: center;
+  font-size: var(--font-size-6xl);
+  color: var(--color-gray-300);
+  font-family: var(--font-inter);
+}

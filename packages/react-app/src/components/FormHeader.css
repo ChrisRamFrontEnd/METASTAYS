@@ -1,0 +1,128 @@
+.metastays2,
+.where-real-estate1 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.metastays2 {
+  line-height: 27px;
+  width: 338px;
+  height: 69px;
+  cursor: pointer;
+}
+.where-real-estate1 {
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-midnightblue);
+  width: 774px;
+  height: 58px;
+}
+.hamburger-menu-icon {
+  position: relative;
+  width: 37px;
+  height: 25px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.captura-de-pantalla-1348-1 {
+  position: relative;
+  border-radius: var(--br-999981xl);
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+.account-section {
+  width: 152px;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xs);
+}
+.navigation-right,
+.top-container {
+  width: 605px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.top-container {
+  position: absolute;
+  top: -0.5px;
+  left: 0;
+  width: 1795px;
+  height: 128px;
+  justify-content: space-between;
+}
+.subheader {
+  position: relative;
+  width: 1795px;
+  height: 128px;
+}
+.radio,
+.radio1 {
+  position: absolute;
+}
+.radio {
+  top: 0;
+  left: 135px;
+  cursor: pointer;
+}
+.radio1 {
+  top: 0.38px;
+  left: 0;
+}
+.flight-type {
+  position: relative;
+  width: 310px;
+  height: 38.38px;
+}
+.header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: var(--primary-contrast);
+  width: 100%;
+  height: 199px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-3xl) var(--padding-61xl);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  background: #fff;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-firebrick);
+  font-family: var(--font-fipps);
+}
+@media screen and (max-width: 1200px) {
+  .header {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 960px) {
+  .hamburger-menu-icon {
+    display: flex;
+  }
+  .header {
+    padding-left: var(--padding-5xl);
+    padding-right: var(--padding-5xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 420px) {
+  .navigation-right {
+    display: flex;
+  }
+  .flight-type {
+    width: 100% !important;
+  }
+}

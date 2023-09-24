@@ -1,0 +1,118 @@
+.metastays1 {
+  position: absolute;
+  top: calc(50% - 31px);
+  left: 0;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  width: 338px;
+  height: 69px;
+}
+.logo {
+  position: relative;
+  width: 383px;
+  height: 73px;
+  overflow: hidden;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.where-real-estate {
+  position: relative;
+  letter-spacing: 0.04em;
+  font-weight: 600;
+  font-family: var(--font-inter);
+  display: inline-block;
+  width: 804px;
+}
+.fickleflight-bio {
+  width: 1289px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  margin-bottom: 40px !important;
+}
+.about-us {
+  top: 47.76px;
+  width: 135.67px;
+}
+.about-us,
+.company1,
+.news {
+  position: absolute;
+  left: 0;
+  display: inline-block;
+}
+.company1 {
+  top: 0;
+  font-size: var(--font-size-xl);
+  line-height: 27px;
+  width: 174.72px;
+}
+.news {
+  top: 78.76px;
+  width: 84.28px;
+}
+.company {
+  position: relative;
+  width: 174.72px;
+  height: 97.76px;
+}
+.footer,
+.footer-links {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.footer-links {
+  flex: 1;
+  justify-content: flex-start;
+  font-size: var(--font-size-base);
+  font-family: var(--font-inter);
+}
+.footer {
+  position: absolute;
+  top: 984px;
+  left: 0;
+  background-color: var(--color-midnightblue);
+  width: 1920px;
+  height: 202px;
+  justify-content: center;
+  padding: var(--padding-14xl) var(--padding-65xl);
+  box-sizing: border-box;
+  gap: var(--gap-25xl);
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--primary-contrast);
+  font-family: var(--font-fipps);
+}
+@media screen and (max-width: 1200px) {
+  .footer {
+    padding: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 960px) {
+  .footer-links {
+    flex: unset;
+    align-self: stretch;
+  }
+  .footer {
+    flex-direction: column;
+    padding: var(--padding-21xl) var(--padding-5xl) var(--padding-11xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 420px) {
+  .company {
+    margin-bottom: 40px !important;
+  }
+  .footer-links {
+    flex-direction: column;
+  }
+  .footer {
+    padding: var(--padding-11xl) var(--padding-5xl);
+    box-sizing: border-box;
+  }
+}

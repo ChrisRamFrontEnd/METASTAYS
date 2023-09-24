@@ -1,0 +1,144 @@
+.search-metastays {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.form-title-group {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-mini) var(--padding-8xs);
+  gap: var(--gap-8xs);
+}
+.departure-field {
+  align-self: stretch;
+  flex: 1;
+}
+.start-date {
+  flex: 1;
+}
+.inputs-row {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs);
+  gap: var(--gap-3xs);
+}
+.button1 {
+  position: relative;
+  letter-spacing: 0.46px;
+  line-height: 26px;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 146.98px;
+}
+.button-group,
+.search-flights-button {
+  border-radius: var(--br-xl);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.search-flights-button {
+  background-color: var(--color-firebrick);
+  width: 164px;
+  height: 56px;
+  overflow: hidden;
+  flex-shrink: 0;
+  transition: 0.3s;
+}
+.search-flights-button:hover {
+  background-color: var(--color-darkorange);
+}
+.button-group {
+  padding: var(--padding-8xs);
+  cursor: pointer;
+}
+.form-inputs-row,
+.search-form {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.form-inputs-row {
+  align-self: stretch;
+  flex-direction: row;
+  text-align: center;
+  font-size: var(--font-size-mini);
+  color: var(--primary-contrast);
+}
+.search-form {
+  position: absolute;
+  top: 295px;
+  left: 92px;
+  border-radius: var(--br-3xs);
+  background-color: var(--primary-contrast);
+  width: 1730px;
+  height: 183px;
+  flex-direction: column;
+  padding: var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-9xs);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-midnightblue);
+  font-family: var(--font-fipps);
+}
+@media screen and (max-width: 960px) {
+  .inputs-row {
+    width: 100%;
+    flex: unset;
+    align-self: stretch;
+  }
+  .search-flights-button {
+    margin-right: auto;
+  }
+  .button-group {
+    width: 100%;
+    text-align: left;
+  }
+  .form-inputs-row,
+  .search-form {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 420px) {
+  .search-metastays {
+    width: 100%;
+    padding-bottom: var(--padding-3xs);
+    margin-bottom: 6px;
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #eaeaea;
+    flex: unset;
+    align-self: stretch;
+  }
+  .flight-options {
+    width: 100%;
+  }
+  .form-title-group {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .departure-field,
+  .start-date {
+    flex: unset;
+    align-self: stretch;
+  }
+  .inputs-row {
+    flex-direction: column;
+  }
+  .search-flights-button {
+    width: 100% !important;
+  }
+  .search-form {
+    margin-top: 20px;
+  }
+}
