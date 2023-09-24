@@ -1,0 +1,140 @@
+.owned-properties-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-whitesmoke);
+  width: 1357px;
+  height: 360px;
+}
+.owned-properties-inner,
+.owned-properties-item {
+  position: absolute;
+  top: 117px;
+  left: 25px;
+  border-radius: var(--br-xl);
+  background-color: var(--primary-contrast);
+  width: 1319px;
+  height: 227px;
+}
+.owned-properties-inner {
+  top: 0;
+  left: 0;
+  background-color: var(--color-firebrick);
+  width: 293px;
+  height: 61px;
+}
+.owned-properties2 {
+  position: absolute;
+  top: 22px;
+  left: 27px;
+  line-height: 18px;
+}
+.owned-properties1 {
+  position: absolute;
+  top: 44px;
+  left: 25px;
+  width: 293px;
+  height: 61px;
+}
+.no-properties-owned1 {
+  margin: 0;
+}
+.no-properties-owned-container2 {
+  position: absolute;
+  top: 158px;
+  left: 57px;
+  line-height: 18px;
+  color: var(--color-black);
+  display: inline-block;
+  width: 314px;
+  height: 43px;
+}
+.head-house-icon3 {
+  position: absolute;
+  top: 244px;
+  left: 1109px;
+  width: 198px;
+  height: 202px;
+  overflow: hidden;
+}
+.frame-div {
+  position: absolute;
+  top: calc(50% - 161px);
+  left: calc(50% - 506.5px);
+  width: 519px;
+  height: 323px;
+}
+.button-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-mini);
+  background-color: var(--color-firebrick);
+  width: 349px;
+  height: 60px;
+}
+.add-property1 {
+  position: absolute;
+  top: 8px;
+  left: 17px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 315px;
+  height: 45px;
+}
+.button3 {
+  position: absolute;
+  top: 188px;
+  left: 515px;
+  width: 349px;
+  height: 60px;
+  cursor: pointer;
+  text-align: center;
+  font-size: var(--font-size-6xl);
+  font-family: var(--font-fipps);
+}
+.unlock-1-icon1 {
+  position: absolute;
+  top: 0;
+  left: 353px;
+  width: 134px;
+  height: 38px;
+  object-fit: cover;
+  mix-blend-mode: hard-light;
+}
+.create-a-property1 {
+  position: absolute;
+  top: 7px;
+  left: 0;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 353px;
+  height: 31px;
+}
+.unlock-1-group {
+  position: absolute;
+  top: 260px;
+  left: 433px;
+  width: 516px;
+  height: 38px;
+  cursor: pointer;
+  text-align: center;
+  font-size: var(--font-size-6xl);
+  color: var(--color-gray-300);
+}
+.owned-properties {
+  position: absolute;
+  top: 602px;
+  left: 84px;
+  width: 1357px;
+  height: 360px;
+  text-align: left;
+  font-size: var(--font-size-9xl);
+  color: var(--primary-contrast);
+  font-family: var(--font-inter);
+}

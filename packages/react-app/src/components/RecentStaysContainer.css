@@ -1,0 +1,83 @@
+.frame-inner,
+.oct-18th {
+  position: absolute;
+  left: 0;
+}
+.frame-inner {
+  top: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--primary-contrast);
+  width: 1319px;
+  height: 227px;
+}
+.oct-18th {
+  top: 182px;
+  line-height: 18px;
+}
+.image-18-icon2 {
+  position: absolute;
+  top: 0;
+  left: 2px;
+  border-radius: var(--br-10xl);
+  width: 304px;
+  height: 172px;
+  object-fit: cover;
+}
+.oct-18th-parent {
+  position: absolute;
+  top: 18px;
+  left: 668px;
+  width: 306px;
+  height: 197px;
+}
+.nov-7th {
+  position: absolute;
+  top: 182px;
+  left: 1px;
+  line-height: 18px;
+}
+.nov-7th-parent {
+  position: absolute;
+  top: 18px;
+  left: 996px;
+  width: 304px;
+  height: 199px;
+}
+.murder-housenever-checked {
+  position: absolute;
+  top: 182px;
+  left: -1px;
+  line-height: 18px;
+}
+.image-17-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-10xl);
+  width: 304px;
+  height: 172px;
+  object-fit: cover;
+}
+.aug-18th-parent,
+.murder-housenever-checked-out-parent,
+.rectangle-group {
+  position: absolute;
+  top: 18px;
+  left: 344px;
+  width: 304px;
+  height: 199px;
+}
+.aug-18th-parent,
+.rectangle-group {
+  left: 18px;
+}
+.rectangle-group {
+  top: 76px;
+  left: 0;
+  width: 1319px;
+  height: 227px;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
