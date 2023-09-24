@@ -25,6 +25,7 @@ ReactDOM.render(
     <ThemeSwitcherProvider themeMap={themes} defaultTheme={prevTheme || "light"}>
       <BrowserRouter>
         <App subgraphUri={subgraphUri} />
+        <Wallet setProfile={setProfile} profile={profile}/>
       </BrowserRouter>
     </ThemeSwitcherProvider>
   </ApolloProvider>,
